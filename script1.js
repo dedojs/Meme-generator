@@ -5,7 +5,6 @@
 const inputText = document.getElementById("text-input");
 const btnText = document.getElementById("anexar");
 const memeContainer = document.getElementById("meme-image-container");
-const btnDeleteText = document.getElementById("apagar");
 let textContainer = document.getElementById("textContainer");
 const p = document.querySelector("#meme-text");
 const image = document.getElementsByTagName("img");
@@ -25,13 +24,6 @@ inputText.addEventListener("keyup", (e) => {
 });
 
 btnText.addEventListener("keyup", addText);
-
-btnDeleteText.addEventListener("click", () => {
-  for (let i = 0; i < textContainer.length; i += 1) {
-    textContainer[i].innerHTML = "";
-    memeContainer.removeChild(image);
-  }
-});
 
 let header = document.getElementsByTagName("header")[0];
 let body = document.getElementsByTagName("body")[0];
