@@ -101,19 +101,11 @@ main{
   flex: 1;
 
 }
-/* #text-container{
-  position: relative;
-  max-width: 600px;
-  max-height: 400px;
-  width: 600px;
-  height: 400px;
-  z-index: 0;
-  } */
 
 #meme-text{
   /* text-shadow: rgb(160, 156, 156) 5px 5px 5px; */
   font-size: 30px;
-  color: white;
+  color: black;
   position: relative;
   /* align-self: center; */
   display: flex;
