@@ -23,8 +23,8 @@
         <div id="cor">
         <label class="label" for="cortexto">Text Color</label>
         <select name="cortexto" id="colorText">
-          <option class="optiontext" value="white">Branco</option>
           <option class="optiontext" value="black">Preto</option>
+          <option class="optiontext" value="white">Branco</option>
           <option class="optiontext" value="yellow">Amarelo</option>
           <option class="optiontext" value="red">Vermelho</option>
           <option class="optiontext" value="green">Verde</option>
@@ -42,6 +42,7 @@
       <div id="fontFamily">
         <label class="label" for="family">Fonte Family</label>
         <select name="family" id="family">
+          <option class="optionfamily" value=""></option> 
           <option class="optionfamily" value="Roboto Slab" , serif;>
             Roboto
           </option>
@@ -60,6 +61,7 @@
         <div id="marginContainer">
         <label class="label" for="margin">Margem</label>
         <select name="margin" id="margin">
+          <option class="optionmargin" value=""></option>
           <option class="optionmargin" value="flex-start">Superior</option>
           <option class="optionmargin" value="center">Centralizado</option>
           <option class="optionmargin" value="flex-end">Inferior</option>
@@ -68,6 +70,7 @@
       <div id="alignContainer">
         <label class="label" for="align">Alinhamento</label>
         <select name="align" id="align">
+          <option class="optionmargin" value=""></option>
           <option class="optionmargin" value="center">Centralizado</option>
           <option class="optionmargin" value="flex-start">Esquerda</option>
           <option class="optionmargin" value="flex-end">Direita</option>
@@ -97,7 +100,6 @@
         </div>
       </section>
       <section>
-        
         <div id="border-container">
           <h3>Bordas</h3>
           <button id="fire">Fire</button>
@@ -106,12 +108,15 @@
         </div>
       </section>
       <h2>Memes pré prontos</h2>
-      <div id="exemplos">
+      <div class="carrosel">
+      <div class='carroselImg' id="exemplos">
         <img src="./imgs/meme1.png" class="meme" id="meme-1" alt="meme1" />
         <img src="./imgs/meme2.png" class="meme" id="meme-2" alt="meme2" />
         <img src="./imgs/meme3.png" class="meme" id="meme-3" alt="meme3" />
         <img src="./imgs/meme4.png" class="meme" id="meme-4" alt="meme4" />
+        <!-- <img src="./imgs/natal.jpg" class="meme" id="natal" alt="meme5" /> -->
       </div>
+    </div>
     </main>
     <footer>
       <ul id="menuContato">
